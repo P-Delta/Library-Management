@@ -72,8 +72,6 @@ color schemes must be included as features
 
 **4. Technological Specifications**
 
-\- Frontend: React
-
-\- Backend:
+\- Platform: React
 
 \- Version Control: [GitHub](https://github.com/P-Delta)
