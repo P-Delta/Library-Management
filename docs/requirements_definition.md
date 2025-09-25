@@ -44,19 +44,19 @@ B. Administrative User
 >
 > -Footer section of every window in web app must have references/links to
 > all social media platforms/accounts related to the web app
-
--4 separate windows related to a home, about, credits, and contact page
-
-> I. Home: Introduces and addresses goal of the web app
 >
-> II\. About: Chronological list of educational qualifications,
+> -Four separate windows related to a home, about, credits, and contact page
+>
+>> I. Home: Introduces and addresses goal of the web app
+>
+> >II\. About: Chronological list of educational qualifications,
 > professional/technical skills, recognition, and work experience gained
 > by each team member
 >
-> III\. Credits: Tasks/Roles assigned and completed by each team member
+> >III\. Credits: Tasks/Roles assigned and completed by each team member
 > with a headshot photograph
 >
-> IV\. Contact: Fillable form with a name, email, and phone \# field
+> >IV\. Contact: Fillable form with a name, email, and phone \# field
 > that can be submitted and sent by an end-user to all team members
 
 **4. Design Specifications**
