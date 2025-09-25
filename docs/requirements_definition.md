@@ -16,7 +16,7 @@ A. Regular User
 > tracks user’s activities such as book-borrowing, borrowing history,
 > wish list, membership dues, ...)
 >
-> \- Must be able to search for books using a search window
+> \-Must be able to search for books using a search window
 >
 > -Be able to enroll for a library membership in a separate window
 >
@@ -25,7 +25,7 @@ A. Regular User
 
 B. Administrative User
 
-> \- Must be able to login to a dashboard that can manage users and keep
+> \-Must be able to login to a dashboard that can manage users and keep
 > track of their activity, history, and fees within the system
 >
 > -Must be able to view a list of all registered users and their roles
@@ -59,18 +59,18 @@ all social media platforms/accounts related to the web app
 > IV\. Contact: Fillable form with a name, email, and phone \# field
 > that can be submitted and sent by an end-user to all team members
 
-**5. Design Specifications**
+**4. Design Specifications**
 
--Cross platform (Must work with various OS’s)
+- Cross platform (Must work with various OS’s)
 
--Multiwindow Support: Application must support multiple windows being
+- Multiwindow Support: Application must support multiple windows being
 opened and used by end-users as well as the ability to drag and
 rearrange windows
 
--Accessibility: Shortcuts, various fonts, resizable windows, and various
+- Accessibility: Shortcuts, various fonts, resizable windows, and various
 color schemes must be included as features
 
-**4. Technological Specifications**
+**5. Technological Specifications**
 
 \- Platform: React
 
