@@ -61,14 +61,14 @@ B. Administrative User
 
 **4. Design Specifications**
 
-- Cross platform (Must work with various OS’s)
-
-- Multiwindow Support: Application must support multiple windows being
-opened and used by end-users as well as the ability to drag and
-rearrange windows
-
-- Accessibility: Shortcuts, various fonts, resizable windows, and various
-color schemes must be included as features
+> - Cross platform (Must work with various OS’s)
+>
+> - Multiwindow Support: Application must support multiple windows being
+> opened and used by end-users as well as the ability to drag and
+> rearrange windows
+>
+> - Accessibility: Shortcuts, various fonts, resizable windows, and various
+> color schemes must be included as features
 
 **5. Technological Specifications**
 
