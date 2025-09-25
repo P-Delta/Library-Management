@@ -33,17 +33,17 @@ B. Administrative User
 
 **3. System Requirements**
 
--Must be able to store large quantities of various data (books, users,
-loans, return dates, etc..) likely within a database
+> -Must be able to store large quantities of various data (books, users,
+> loans, return dates, etc..) likely within a database
 
 > -Validation checks are needed for this to keep track of which books
 > are being loaned out and which are physically available
 
--Must have an automatic system that sends out notification reminders to
-library users for book loans
+> -Must have an automatic system that sends out notification reminders to
+> library users for book loans
 
--Footer section of every window in web app must have references/links to
-all social media platforms/accounts related to the web app
+> -Footer section of every window in web app must have references/links to
+> all social media platforms/accounts related to the web app
 
 -4 separate windows related to a home, about, credits, and contact page
 
