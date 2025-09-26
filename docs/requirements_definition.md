@@ -39,8 +39,8 @@ B. Administrative User
 > -Validation checks are needed for this to keep track of which books
 > are being loaned out and which are physically available
 >
-> -Must have an automatic system that sends out notification reminders to
-> library users for book loans
+> -Must have an automatic system that sends out email notification reminders to
+> library users for active and overdue book loans
 >
 > -Footer section of every window in web app must have references/links to
 > all social media platforms/accounts related to the web app
@@ -57,7 +57,8 @@ B. Administrative User
 > with a headshot photograph
 >
 > >IV\. Contact: Fillable form with a name, email, and phone \# field
-> that can be submitted and sent by an end-user to all team members
+> that when submitted by an end-user, sends an email notification
+> to all team members
 
 **4. Design Specifications**
 
