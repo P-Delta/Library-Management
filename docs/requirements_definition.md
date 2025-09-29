@@ -60,6 +60,14 @@ B. Administrative User
 > that when submitted by an end-user, sends an email notification
 > to all team members
 
+### Additional System Requrements
+
+> -All user accounts must have encrypted login credentials
+>
+> -Ensure system can handle concurrent requests
+>
+> -System must be accessible the entire time during library hours
+
 **4. Design Specifications**
 
 > - Cross platform (Must work with various OS’s)
