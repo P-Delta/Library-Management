@@ -84,3 +84,5 @@ B. Administrative User
 \- Platform: React
 
 \- Version Control: [GitHub](https://github.com/P-Delta)
+
+\- Database: MySQL
