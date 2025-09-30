@@ -72,6 +72,10 @@ B. Administrative User
 
 > - Cross platform (Must work with various OS’s)
 >
+>Software Process: The team MUST employ the Waterfall model (Plan-based approach) as
+>the core/primary model with respect to the overall Software Process.
+>
+>
 > - Multiwindow Support: Application must support multiple windows being
 > opened and used by end-users as well as the ability to drag and
 > rearrange windows
