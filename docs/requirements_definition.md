@@ -77,6 +77,23 @@ B. Administrative User
 > -Various font options
 > -Text fields like Windows must be resizable to accomodate the user needs and various screen sizes
 > -Various color schemes must be included as features. Should agree with Web Content Accesibility Guidelines.
+>
+**5. Validations**
+
+>\-Input Validation:
+>\-Guarantee that the email input follows a solid format.
+>\-Strong Password -> Password with 8 characters and with at leastone number and a special symbol.
+>\-A confirm password section to confirm the users password.
+>\-Ensuring that a new email is not already in the system.
+>\-Guarantee that the name, details etc, information is completed.
+>\-Validate the credit card information and check if it is formatted correctly.
+>\-Data Validation:
+>\-Check if certain books are duplicated and deal with that.
+>\-Confirm that the genre assigned to a book belongs to the right genre.
+>\-Email Validation:
+>\-Be sure of sending email reminders when a book is overdue when loan record updates.
+>\-Check if the email could be successfully sent.
+
 
 **5. Technological Specifications**
 
