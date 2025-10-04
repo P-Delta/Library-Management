@@ -70,20 +70,26 @@ B. Administrative User
 > that when submitted by an end-user, sends an email notification
 > to all team members
 
-### Additional System Requrements
-
-> -All user accounts must have encrypted login credentials
+> - Cross platform (Must work with various OS’s)
 >
-> -Ensure system can handle concurrent requests
+>Software Process: The team MUST employ the Waterfall model (Plan-based approach) as
+>the core/primary model with respect to the overall Software Process.
+>
+>
+> - Multiwindow Support: Application must support multiple windows being
+> opened and used by end-users as well as the ability to drag and
+> rearrange windows
 >
 > -System must be accessible the entire time during library hours
 
 **4. Design Specifications**
 
 > - Cross platform (Must work with various OS’s)
->
-> - Multiwindow Support: Application must support multiple windows being
-> opened and used by end-users as well as the ability to drag and
+\- Platform: React
+
+\- Version Control: [GitHub](https://github.com/P-Delta)
+
+\- Database: MySQL
 > rearrange windows
 >
 > - Accessibility: Shortcuts, various fonts, resizable windows, and various
