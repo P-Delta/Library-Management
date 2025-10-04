@@ -31,10 +31,10 @@ B. Administrative User
 > track of their activity, history, and fees within the system
 >
 > -The UI design:
->    -Login page
->    -A reservation window
->    -A search window and filtering options
->    -A membership enrollment form
+> -Login page
+> -A reservation window
+> -A search window and filtering options
+> -A membership enrollment form
 > -Must be able to view a list of all registered users and their roles
 > in the web app
 > 
