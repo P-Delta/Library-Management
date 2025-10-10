@@ -2,19 +2,31 @@
 
 ### **1. System Scope/Purpose**  
 
-Client is requesting for an application that functions as a library management tool meant to be used by library users and workers. For library users, the application will appear as a normal application that lets them open various windows to make an account, sign up for a membership, search for books to loan, and other windows to track their history and fees for book loans. For library workers the application should appear differently with a dashboard that allows them to view a list as well as manage all of all their users, books, loans, overdue fees. Our application will be a web application so that regular library users and workers have easy accessibility to the functions of the tool.
+Client is requesting for an application that functions as a library management tool meant to be used by library users and workers. For library users, the 
+application will appear as a normal application that lets them open various windows to make an account, sign up for a membership, search for books to loan, and 
+other windows to track their history and fees for book loans. For library workers the application should appear differently with a dashboard that allows them to 
+view a list as well as manage all of all their users, books, loans, overdue fees. Our application will be a web application so that regular library users and 
+workers have easy accessibility to the functions of the tool.
 
 ### **2. User Requirements**
 
-A. Regular User
+A. Regular User (Any library customer who wishes to use the web app for their library activities)
 
 - Must be able to make an account associated with the web app (account tracks user’s activities such as book-borrowing, borrowing history, wish list, membership dues, etc.)
+  - Account will be made with a verified email and strong password (8 characters at least with a combination of numbers and upper/lower case letters)
+    
+- Be able to enroll for a library membership in a separate window
+  - Only users who have an active membership will be able to checkout out a book for loaning and access the wishlist feature.
+  - Users who only have an account and not a membership can only use the other features (Attempts to loan or wishlist a book without a membership will show a popup
+  to activate a membership)
 
 - Must have a search window that allows users to search for books
 
   - Search filters should be added to sort by title, author, genre, and book availability
 
 - Be able to enroll for a library membership in a separate window
+  - Payment methods for membership must be verified before accepting
+  - Auto-renew option will be asked to the user
 
 - Be able to reserve books for in-person reading/loaning in a separate window
 
@@ -52,6 +64,8 @@ B. Administrative User (Library workers)
 - Ensure system can handle concurrent requests
   
 - System must be accessible the entire time during library hours (8:00 AM - 5:00 PM)
+  
+- Search requests by a user must respond within 2 seconds under a normal load of 100 users
 
 ### **5. Design Specifications**
 
