@@ -6,13 +6,12 @@ Client is requesting for an application that functions as a library management t
 application will appear as a normal application that lets them open various windows to make an account, sign up for a membership, search for books to loan, and 
 other windows to track their history and fees for book loans. For library workers the application should appear differently with a dashboard that allows them to 
 view a list as well as manage all of all their users, books, loans, overdue fees. Will be a web application so that regular library users and workers have easy 
-accessibility to all the library capabilites.
+accessibility to all library capabilites.
 
 ### **Waterfall model**
 
 We are using waterfall model as the core/primary software process.
 This plan driven approach will use feedback from one phase into another helping to ensure good coding habits, clear version control, and additional safety.
-
 
 ## Table of Contents
 - [1. Requirements Elicitation & Analysis](#1-requirements-elicitation--analysis)
@@ -20,7 +19,7 @@ This plan driven approach will use feedback from one phase into another helping 
 - [3. Requirements Validation](#3-requirements-validation)
 
 
-##  1. Requirements Elicitation & Analysis
+## 1. Requirements Elicitation & Analysis
 
 Regular User: (Any library customer who wishes to use the web app for their library activities)
 - Must be able to make an account associated with the web app
@@ -28,13 +27,13 @@ Regular User: (Any library customer who wishes to use the web app for their libr
 - Be able to enroll for a library membership in a separate window
   -Attempts to use member capabilities like loaning or wishlisting a book without a membership will show a popup to activate a membership
 - Must have a search window that allows users to search for books
-  - Search filters should be added to sort by title, author, genre, and book availability
+  - Search filters will be added to sort by title, author, genre, and book availability
 - Be able to enroll for a library membership in a separate window
   - Payment methods for membership must be verified before accepting
   - Auto-renew option will be asked to the user
 - Able to log in
 
-Member User: 
+Member User: (Any library customer with an account and active membership)
 - Reserve books for in-person reading/loaning in a separate window 
 - Ability to wishlist books that are unavailable that sends out a email notification when it is available
 - View current & past history records (books, loans, fees, etc.)
@@ -42,7 +41,7 @@ Member User:
 
 Administrative User:
 - Must be able to login to a dashboard that can manage users and keep track of their activity, history, and fees within the system
-  - Should also have an option that allows them to view the web application as a regular user
+  - Option to allow for admin user to view the web application as a regular user
   - Capabilities of managing user include (add, modify, delete, etc.) books, loans, fees, etc.
 - Must be able to view a list of all registered users and their roles in the web app
   - List must mention users membership status and/or administrative status
@@ -91,19 +90,13 @@ Administrative User:
 
 *Footer (included in all windows)*
 
-I. **Home**: Landing page, Introduces and addresses goal of the web app
+1. **Home**: Landing page, Introduces and addresses goal of the web app
 
-II\. **About**: Chronological list of educational qualifications,
- professional/technical skills, recognition, and work experience gained
- by each team member
+2. **About**: Chronological list of educational qualifications, professional/technical skills, recognition, and work experience gained by each team member
 
-III\. **Credits**: Tasks/Roles assigned and completed by each team member
- with a headshot photograph
+3. **Credits**: Tasks/Roles assigned and completed by each team member with a headshot photograph
 
-IV\. **Contact**: Fillable form with a name, email, and phone \# field
- that when submitted by an end- user, sends an email notification
- to all team members
-
+4. **Contact**: Fillable form with a name, email, and phone number field that when submitted by an end- user, sends an email notification to all team members
 
 **Technological Specifications**
 
