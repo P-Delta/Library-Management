@@ -114,8 +114,8 @@ Administrative User:
   
 **Criteria**
 
-- [x] Accepted: Requirements are feasible, testable, and ready for design phase
-- [ ] Not-Accepted: Requirements are not feasible, testable, or cannot be implemented
+- &#x2611; Accepted: Requirements are feasible, testable, and ready for design phase
+- &#x2610; Not-Accepted: Requirements are not feasible, testable, or cannot be implemented
 
 **Schedule**
 
@@ -127,8 +127,8 @@ Administrative User:
 
 **Requirements Signoff**
 
-| Role            | GitHub User | Completeness | Consistency | Realism | Date     |
-|-----------------|-------------|--------------|-------------|---------|----------|
-| Analyst         |             |      [ ]     |     [ ]     |   [ ]   | --/--/-- |
-| Project Manager |             |      [ ]     |     [ ]     |   [ ]   | --/--/-- |
-| Quality Control |             |      [ ]     |     [ ]     |   [ ]   | --/--/-- |
+| Role            | GitHub User | Completeness | Consistency | Realism  | Date     |
+|-----------------|-------------|--------------|-------------|----------|----------|
+| Analyst         |             |   &#x2610;   |   &#x2610;  | &#x2610; | --/--/-- |
+| Project Manager |             |   &#x2610;   |   &#x2610;  | &#x2610; | --/--/-- |
+| Quality Control |             |   &#x2610;   |   &#x2610;  | &#x2610; | --/--/-- |
