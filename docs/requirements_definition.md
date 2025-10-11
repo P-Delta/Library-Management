@@ -48,10 +48,10 @@ Administrative User:
 
 ##  2. Requirements Specification
 **Functional Requirements**
-
+> -In addition to any user specfied requirement
 - Must be able to store large quantities of various data (books, users, loans, return dates, etc..) likely within a database
   - Validation checks are needed for this to keep track of which books are being loaned out and which are physically available
-- Must have an automatic system that sends out email notification reminders to library users for active and overdue book loans
+- Must have an automatic system that sends out email notification reminders to library members for active and overdue book loans
 
 - Footer section of every window in web app must have references/links to all social media platforms/accounts related to the web app
 
@@ -105,3 +105,30 @@ Administrative User:
 - Database: MySQL
 
 ##  3. Requirements Validation
+
+**Objectives**
+
+- All functional, non-functional, and any user requirements must be testable and hold true to their designed purpose
+  - Includes regular user, member, adminstrative user, all windows needed, and any other functional/non-funcitonal requirement
+
+**Techniques/Methods**
+
+- Completeness for each functional requirement will be checked to make sure it lines up with what client asked for
+- Walkthrough checks will be implemented for early feasibility and realism for user experience
+- Consistency checks will be made to ensure all non-funcational requirements are met
+- Simulations will be made to verify user experince with intended purpose
+  
+**Criteria**
+
+- Accepted: Requirements are feasible, testable, and ready to be implemented
+- Not-Accepted: Requirements are not feasible, testable, or cannot be implemented
+- Modications needed: Adjustments to requirements can be made to make it acceptable
+
+**Schedule**
+
+- All techniques/methods will be tested in order stated and will be reported as specified in the criteria
+  - Completeness checks will be made to any functional requirement by design team when making class diagrams
+  - Walkthrough checks will be made by programming team to ensure requirements are feasible
+  - Consistency checks for all non-functional requirements will be made by quality control team with rigorous testing
+  - Simulations can be made by anyone on the software team to check for multiple user experiences
+  
