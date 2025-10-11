@@ -21,7 +21,7 @@ This plan driven approach will use feedback from one phase into another helping 
 
 ## 1. Requirements Elicitation & Analysis
 
-Regular User: (Any library customer who wishes to use the web app for their library activities)
+Guest User: (Any user who wishes to view book selection or sign up)
 - Must be able to make an account associated with the web app
   - Account will be made with a verified email and strong password (8 characters at least with a combination of numbers and upper/lower case letters)
 - Be able to enroll for a library membership in a separate window
@@ -98,31 +98,24 @@ Administrative User:
 
 4. **Contact**: Fillable form with a name, email, and phone number field that when submitted by an end- user, sends an email notification to all team members
 
-**Technological Specifications**
-
-- Platform: React
-- Version Control: [GitHub](https://github.com/P-Delta)
-- Database: MySQL
-
 ##  3. Requirements Validation
 
 **Objectives**
 
-- All functional, non-functional, and any user requirements must be testable and hold true to their designed purpose
-  - Includes regular user, member, adminstrative user, all windows needed, and any other functional/non-funcitonal requirement
+- Serves as proof of final review
+- Ensure all functional, non-functional, and any user requirements are valid and hold true to their designed purpose
+  - Includes guest, member, adminstrative user, all windows needed, and any other functional/non-functional requirement
 
-**Techniques/Methods**
+**Techniques/Methods for Signoff**
 
 - Completeness for each functional requirement will be checked to make sure it lines up with what client asked for
-- Walkthrough checks will be implemented for early feasibility and realism for user experience
-- Consistency checks will be made to ensure all non-funcational requirements are met
-- Simulations will be made to verify user experince with intended purpose
+- Consistency checks will be made to ensure all requirements are consistent
+- Realism checks will be implemented for early feasibility and realism for development
   
 **Criteria**
 
-- Accepted: Requirements are feasible, testable, and ready to be implemented
-- Not-Accepted: Requirements are not feasible, testable, or cannot be implemented
-- Modications needed: Adjustments to requirements can be made to make it acceptable
+- [x] Accepted: Requirements are feasible, testable, and ready for design phase
+- [ ] Not-Accepted: Requirements are not feasible, testable, or cannot be implemented
 
 **Schedule**
 
@@ -131,4 +124,11 @@ Administrative User:
   - Walkthrough checks will be made by programming team to ensure requirements are feasible
   - Consistency checks for all non-functional requirements will be made by quality control team with rigorous testing
   - Simulations can be made by anyone on the software team to check for multiple user experiences
-  
+
+**Requirements Signoff**
+
+| Role            | GitHub User | Completeness | Consistency | Realism | Date     |
+|-----------------|-------------|--------------|-------------|---------|----------|
+| Analyst         |             |      [ ]     |     [ ]     |   [ ]   | --/--/-- |
+| Project Manager |             |      [ ]     |     [ ]     |   [ ]   | --/--/-- |
+| Quality Control |             |      [ ]     |     [ ]     |   [ ]   | --/--/-- |
