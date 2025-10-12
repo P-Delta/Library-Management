@@ -4,10 +4,10 @@
 
 Client is requesting for an application that functions as a library management tool meant to be used by guest users, library members, and workers. For guest 
 users, the application will appear as a normal application that lets them open various windows such as to make an account with a membership as well as search for 
-books using the library's database. More windows will open up once they make a membership attached to a library account that will allow them to track their 
-history, fees, and gives them the ability to loan books and wishlist them. For library workers the application should appear differently with a dashboard that 
-allows them to view a list as well as manage all of all their users, books, loans, overdue fees. Will be a web application so that all guest users, members, and 
-library workers have easy accessibility to all library capabilites.
+books using the library's database. More windows will open up once they make library account that will allow them to track their history, fees, and wishlist 
+books for future reservations while they also have membership. For library workers the application should appear differently with a dashboard that allows them to 
+view a list as well as manage all of all their users, books, loans, overdue fees. Will be a web application so that all guest users, members, and library workers 
+have easy accessibility to all library capabilites.
 
 ### **Waterfall model**
 
@@ -32,12 +32,13 @@ Guest User: (Any user who visits the site who wishes to view book selection or m
   - Search filters will be added to sort by title, author, genre, and book availability
 - Able to log in
 
-Member User: (Any library member with an account and active membership)
-- Reserve books for in-person reading/loaning in a separate window
-  - This function will be taken away if account does not have an active membership
-- Ability to wishlist books that are unavailable that sends out a email notification when it is available
-- View current & past history records (books, loans, fees, etc.)
-- Able to log out
+Member User: (Any user with an account logged in to the web app)
+- This function will only be usable while user has an active membership
+  - Reserve books for in-person reading/loaning in a separate window
+- These functions still be usable even while user does not have an acitve membership or never made one
+  - Ability to wishlist books that are unavailable that sends out a email notification when it is available
+  - View current & past history records (books, loans, fees, etc.)  
+- Member user can always log out of account in web app
 
 Administrative User: (Any library worker that needs to use managment capabilites of web app)
 - Must be able to login to a dashboard that can manage users and keep track of their activity, history, and fees within the system
