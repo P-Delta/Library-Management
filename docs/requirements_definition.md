@@ -35,7 +35,7 @@ Guest User: (Any user who visits the site who wishes to view book selection or m
 Member User: (Any user with an account logged in to the web app)
 - This function will only be usable while user has an active membership
   - Reserve books for in-person reading/loaning in a separate window
-- These functions still be usable even while user does not have an acitve membership or never made one
+- These functions will still be usable even while user does not have an acitve membership or never made one
   - Ability to wishlist books that are unavailable that sends out a email notification when it is available
   - View current & past history records (books, loans, fees, etc.)  
 - Member user can always log out of account in web app
