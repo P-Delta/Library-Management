@@ -15,18 +15,23 @@ Our client is requesting for a fully functional library management system used t
 **Guest:** _(any user, not signed in)_
 - Can make an account/log in
 - Able to preview library book selection
+- Be promted to make an account/sign in for more features
 
 **Registered User**: _(signed in, might be member)_
 - Able to begin/renew a membership
 - Can manage membership
 - Able to search through full selection of library books
 - Reserve the physical books
-- View checked out books
+- Recieve system notifications
+- Leave reviews for books in the book selection
+- Priority for new releases
+- View checked out books/history of checked out books
 - Can log out
 
 **Administrator**: _(staff)_
 - Has admin dashboard
 - View and manage users, books, loans, fees, etc.
+- The ability to back up/restore the library database
 
 
 
@@ -94,6 +99,7 @@ Our client is requesting for a fully functional library management system used t
   - password must contain at least one uppercase, lowercase, number, and special character
   - Passwords hashed
   - Role-based privileges
+  - Ecnrypt users personal or sensitive information
 
 - *Usability*
   - Responsive, accessible UI across devices
@@ -103,10 +109,15 @@ Our client is requesting for a fully functional library management system used t
 - *Maintainability*
   - Modular codebase  
   - Updated documentation per release
+  - Allowed to be easily updated and debugged when needed
 
+##  3. Requirements Traceability
 
+- Each functional requirement listed should be checked back to UML use case in order to maintain organization throughout
+    the entirety of development phases, so that the requirements are represented in design, are implemented in the code,
+    and to test the requirements. 
 
-##  3. Requirements Validation
+##  4. Requirements Validation
 
 **Objectives**
 
